@@ -14,7 +14,7 @@ def EX_airplane (dir_path,object_ratio=float(1.0)):
 
     for idx,data in enumerate(file_list):
 
-        # Voxel화 작업
+        # Voxelization
         test_image_airplane = data
         voxels = io.loadmat(test_image_airplane)['instance']
         voxels = np.pad(voxels, (1, 1), 'constant', constant_values=(0, 0))
