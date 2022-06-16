@@ -1,4 +1,8 @@
 # 3D-GAN-and-MatVoxelizer
+<h4>Required libraries = glob, numpy, scipy, torch, matpltlib</h4>
+
+
+
 This contents contain Three dimensional Generative Adversarial Network(3D-GAN) in Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling (NeualPS2016).
 
 For your custom data training, Just use Sample_Run.py with adjusting data shape and type.
