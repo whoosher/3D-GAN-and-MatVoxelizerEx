@@ -19,7 +19,7 @@ Also, the example of voxelizer for matobject (MatVoxelizer) is developed to trai
 
 
 
-Reference)
+<h3>Reference)</h3>
 
 1. Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling (NeualPS2016): Wu, J., Zhang, C., Xue, T., Freeman, B., & Tenenbaum, J. (2016). Learning a probabilistic latent space of object shapes via 3d generative-adversarial modeling. Advances in neural information processing systems, 29.
 
