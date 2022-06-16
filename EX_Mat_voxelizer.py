@@ -23,7 +23,3 @@ def EX_airplane (dir_path,object_ratio=float(1.0)):
 
     volumes = np.asarray(result, dtype=float)
     return volumes
-
-# airplanes = r'D:\3DShapeNets\volumetric_data\airplane\30\train'
-# mat = Mat_voxelizer_EX_airplane(dir_path=airplanes, object_ratio=0.001)
-# print(np.shape(mat))
