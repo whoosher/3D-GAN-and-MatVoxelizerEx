@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 
 
 #Data Load
-DIR_PATH = r'D:\3DShapeNets\volumetric_data\airplane\30\train'
+DIR_PATH = r'D:\3DShapeNets\volumetric_data\airplane\30\train' #Your file path
 Airplane_Data = EX_airplane(DIR_PATH,object_ratio=0.1)
 print(Airplane_Data)
 
@@ -135,7 +135,7 @@ for epoch in range(num_epochs):
         iters += 1
 
 #Saving model weight
-SAVE_PATH = r'C:\Users\USER\PycharmProjects\Generative_design\pretrained'
+SAVE_PATH = r'C:\Users\USER\PycharmProjects\Generative_design\pretrained' #Your SAVE PATH
 torch.save(model_generator, SAVE_PATH + '\model_G.pt')
 torch.save({
     'model': model_generator.state_dict(),
